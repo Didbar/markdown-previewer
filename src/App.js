@@ -67,12 +67,12 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <header className="header">
-          <h2 className="text-center">Markdown Previewer App</h2>
+          <h2 className="text-center u-text-white">Markdown Previewer App</h2>
         </header>
         <main className="main">
           <div className="row">
             <div className="col-6">
-              <h4 className="text-center">Editor TextArea</h4>
+              <h4 className="text-center u-text-white">Editor TextArea</h4>
               <textarea
                 onChange={this.handleChange}
                 value={text}
@@ -82,7 +82,9 @@ class App extends Component {
               />
             </div>
             <div className="col">
-              <h4 className="text-center">Preview Markdown Text</h4>
+              <h4 className="text-center u-text-white">
+                Preview Markdown Text
+              </h4>
               <div
                 id="preview"
                 dangerouslySetInnerHTML={this.getMarkdownText()}

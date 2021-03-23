@@ -1,3 +1,7 @@
+.u-text-white {
+  color: antiquewhite !important;
+}
+
 textarea {
   min-height: 50vh !important;
   max-width: 45vw;
