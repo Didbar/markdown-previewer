@@ -23,3 +23,13 @@ input:focus {
   padding: 5px;
   background-color: rgb(253, 253, 253);
 }
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 0.8rem;
+  }
+  textarea {
+    max-width: 99vw;
+    min-width: 80vw;
+  }
+}

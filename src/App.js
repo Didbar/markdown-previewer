@@ -71,7 +71,7 @@ class App extends Component {
         </header>
         <main className="main">
           <div className="row">
-            <div className="col-6">
+            <div className="col-xs-12 col-md-6">
               <h4 className="text-center u-text-white">Editor</h4>
               <textarea
                 onChange={this.handleChange}
